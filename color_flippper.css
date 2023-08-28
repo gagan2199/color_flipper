@@ -3,14 +3,13 @@
     padding: 0px;
 }
 body{
-    /* display: flex; */
-    background-color: aqua;
+    background-color: rgb(101, 129, 129);
 }
 
 .navbar{
 
     display: flex;
-    background-color: rgb(167, 99, 11);
+    background-color: rgb(66, 56, 42);
 
 }
 
