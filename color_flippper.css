@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* display: flex; */
+    background-color: aqua;
+}
+
+.navbar{
+
+    display: flex;
+    background-color: rgb(167, 99, 11);
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    background-color: blueviolet
+}
+
+.items{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin: 15px;
+}
+.logo{
+    height: 30px;
+}
