@@ -10,15 +10,15 @@ body{
 .navbar{
 
     display: flex;
-    background-color: black
+    background-color: #1d5c83
 
 }
 
 #container{
     display: flex;
     justify-content: center;
-    height: 500px;
-    background-color: grey;
+    height: 600px;
+    background-color: white;
 }
 
 .items{
@@ -26,7 +26,8 @@ body{
     list-style: none;
 }
 .item{
-    margin: 15px;
+    margin: 5px 15px;
+    align-self: center;
 }
 .logo{
     height: 30px;
