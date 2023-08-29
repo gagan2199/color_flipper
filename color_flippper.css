@@ -1,4 +1,5 @@
-*{
+*
+{
     margin: 0px;
     padding: 0px;
 }
@@ -9,15 +10,15 @@ body{
 .navbar{
 
     display: flex;
-    background-color: rgb(66, 56, 42);
+    background-color: black
 
 }
 
-.container{
+#container{
     display: flex;
     justify-content: center;
-    height: 80%;
-    background-color: blueviolet
+    height: 500px;
+    background-color: grey;
 }
 
 .items{
@@ -29,4 +30,17 @@ body{
 }
 .logo{
     height: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#btn{
+     display: flex;
+    align-self: center; 
+
+}
+.btn:hover{
+    cursor: pointer;
+
 }
