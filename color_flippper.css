@@ -27,12 +27,28 @@ body{
     display: flex;
     list-style: none;
 }
-.item{
-    margin: 5px 15px;
+.item1{
+    margin: 5px 2px;
     align-self: center;
+    display: flex;
+}
+.item1 span{
+    margin-left: 5px;
+    align-self: center;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    color: bisque;
+    font-weight: bolder;
+}
+.item2{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5px  25px;
+    align-self: flex-end;
 }
 .logo{
     height: 30px;
+    align-self: center;
+    margin-left: 5px;
 }
 a{
     text-decoration: none;
@@ -54,6 +70,8 @@ a{
     font-weight: bolder
 }
 #btn{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
      display: flex;
     align-self: center; 
     align-items: center;
