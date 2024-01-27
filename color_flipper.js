@@ -39,3 +39,12 @@ btn.addEventListener('click', (element) => {
     container.style.backgroundColor =str;
     colorName.innerText=str;
 });
+
+
+// let uniq;        another method with elements shuffle using math function
+
+// btn.addEventListener('click', (element) => {
+//     uniq = cl[Math.floor(Math.random() * 8)];        // from color array
+//     container.style.backgroundColor = uniq;
+//     console.log(uniq) 
+// });
